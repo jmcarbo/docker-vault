@@ -7,5 +7,5 @@ if [ -z "${MY_RANCHER_IP}" ]; then
   exit 1
 else
   echo "Found MY_RANCHER_IP ${MY_RANCHER_IP}"
-  vault -config /config/vault.config 
+  vault server -config /config/vault.config 
 fi
