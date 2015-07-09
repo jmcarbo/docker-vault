@@ -1,6 +1,6 @@
 vault:
   build: git://github.com/jmcarbo/docker-vault
-  image: vault:0.2
+  image: vault:0.3
   command: /bin/run.sh
   tty: false
   stdin_open: true
