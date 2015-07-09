@@ -1,0 +1,9 @@
+vault:
+  build: git://github.com/jmcarbo/docker-vault
+  image: vault:0.1
+  command: /bin/run.sh
+  tty: false
+  stdin_open: true
+  links:
+    - jmcaconsul:consul
+
